@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4ea50f7ce8d56d6b414bbaeb4d37c839.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd133e1d974201ea22ec0178de829fe8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Denominación del proyecto: <strong>Retraso maduracional y/o trayectorias de desarrollo alteradas en el Trastorno por Déficit de Atención (TDA) y en el Trastorno del Espectro Autista (TEA) través del análisis del EEG espontáneo. Una ayuda al diagnóstico PAIDI</strong> 2020.</p>
 <p><strong>Proyectos I+D+i,</strong> Duración: 05/10/2021 al 31/12/2022, Referencia: P20_00537, Calidad en que ha participado: Investigador/a. Importe: 59200.00€ Duración del proyecto: 452 días</p></li>
-<li><p>Denominación del proyecto: <strong>DESARROLLO ONTOGENETICO DE LAS OCILACIONES CEREBRALES LIGADAS A LA MEMORIA DE TRABAJO. ALTERACIONES DEL DESARROLLO EN EL TDAH</strong>. Calidad en que hE participado: Investigador/a Número de investigadores/as: 3. <strong>Entidad/es financiadora/s:</strong> MINISTERIO DE CIENCIA E INNOVACION Cód. según financiadora: PID2019-105618RB-I00. Fecha de inicio: 01/01/2020 Duración del proyecto: 1095 días</p></li>
+<li><p>Denominación del proyecto: <strong>DESARROLLO ONTOGENETICO DE LAS OSCILACIONES CEREBRALES LIGADAS A LA MEMORIA DE TRABAJO. ALTERACIONES DEL DESARROLLO EN EL TDAH</strong>. Calidad en que hE participado: Investigador/a Número de investigadores/as: 3. <strong>Entidad/es financiadora/s:</strong> MINISTERIO DE CIENCIA E INNOVACION Cód. según financiadora: PID2019-105618RB-I00. Fecha de inicio: 01/01/2020 Duración del proyecto: 1095 días</p></li>
 <li><p>Denominación del proyecto: <strong>LA CARACTERIZACIÓN DE FENOTIPOS DE INATENCIÓN EN NIÑOS: LOS PERFILES CONDUCTUALES Y PSICOLÓGICOS DE SLUGGISH COGNITIVE TEMPO Y DEL TDAH.</strong></p>
 <p>Ámbito del proyecto: Nacional Calidad en que ha participado: Investigador/a Número de investigadores/as: 4. <strong>Entidad/es financiadora/s</strong>: FECYT-MINISTERIO DE ECONOMIA Cód. según financiadora: PSI2017-82550R Fecha de inicio: 01/01/2018 Duración del proyecto: 1338 días Cuantía total: 76.230 euros.</p></li>
 <li><p>Denominación del proyecto: <strong>EVALUACIÓN DEL DÉFICIT ATENCIONAL EN PACIENTES CON ESCLEROSIS MÚLTIPLE</strong>. Ámbito del proyecto: Nacional. Calidad en que ha participado: Investigador/a Investigador/es responsable/es: MANUEL VÁZQUEZ MARRUFO Número de investigadores/as: 6. Código entidad financiadora: SEJ2007-65343. Fecha de inicio: 01/10/2007 Duración del proyecto: 1095 días Cuantía total: 101.640.</p></li>
@@ -210,13 +211,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
