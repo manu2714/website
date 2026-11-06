@@ -3,7 +3,7 @@ title: "Docencia"
 editor: visual
 ---
 
-**CURSO 2025/26**
+**CURSO 2026/27**
 
 - Diseño y análisis de datos II
 
