@@ -10,3 +10,4 @@
 >>>>>>> fcacc599dc62e2b9e9cf9e0c2ed9a3393015ae8e
 
 **/*.quarto_ipynb
+.Rhistory 
