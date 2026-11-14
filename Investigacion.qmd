@@ -3,13 +3,11 @@ title: "Investigación"
 editor: visual
 ---
 
-# 
-
 1.  Denominación del proyecto: **Retraso maduracional y/o trayectorias de desarrollo alteradas en el Trastorno por Déficit de Atención (TDA) y en el Trastorno del Espectro Autista (TEA) través del análisis del EEG espontáneo. Una ayuda al diagnóstico PAIDI** 2020.
 
     **Proyectos I+D+i,** Duración: 05/10/2021 al 31/12/2022, Referencia: P20_00537, Calidad en que ha participado: Investigador/a. Importe: 59200.00€ Duración del proyecto: 452 días
 
-2.  Denominación del proyecto: **DESARROLLO ONTOGENETICO DE LAS OCILACIONES CEREBRALES LIGADAS A LA MEMORIA DE TRABAJO. ALTERACIONES DEL DESARROLLO EN EL TDAH**. Calidad en que hE participado: Investigador/a Número de investigadores/as: 3. **Entidad/es financiadora/s:** MINISTERIO DE CIENCIA E INNOVACION Cód. según financiadora: PID2019-105618RB-I00. Fecha de inicio: 01/01/2020 Duración del proyecto: 1095 días
+2.  Denominación del proyecto: **DESARROLLO ONTOGENETICO DE LAS OSCILACIONES CEREBRALES LIGADAS A LA MEMORIA DE TRABAJO. ALTERACIONES DEL DESARROLLO EN EL TDAH**. Calidad en que ha participado: Investigador/a Número de investigadores/as: 3. **Entidad/es financiadora/s:** MINISTERIO DE CIENCIA E INNOVACION Cód. según financiadora: PID2019-105618RB-I00. Fecha de inicio: 01/01/2020 Duración del proyecto: 1095 días
 
 3.  Denominación del proyecto: **LA CARACTERIZACIÓN DE FENOTIPOS DE INATENCIÓN EN NIÑOS: LOS PERFILES CONDUCTUALES Y PSICOLÓGICOS DE SLUGGISH COGNITIVE TEMPO Y DEL TDAH.**
 

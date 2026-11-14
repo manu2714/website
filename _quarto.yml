@@ -29,7 +29,8 @@ website:
       - text: Inicio
         href: index.qmd
       - Docencia.qmd
-      - Investigación.qmd
+      - text: Investigación.qmd
+      - href: investigacion.qmd
 format:
   html:
     backgroundcolor: "#eaffe3"
