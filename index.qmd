@@ -13,13 +13,13 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: github
       text: Github
       href: https://github.com/manu2714
-    - icon: us1
+    - icon: journal-text
       text: sisius
       href: https://investigacion.us.es/sisius/sis_showpub.php?idpers=1694
-    - icon: us2
+    - icon: mortarboard
       text: US
       href: http://www.us.es
-    - icon: globe
+    - icon: person-badge
       text: orcid
       href: https://orcid.org/0000-0002-2690-2542
 ---

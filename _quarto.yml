@@ -14,13 +14,13 @@ website:
       - icon: github
         text: Github
         href: https://github.com/manu2714
-      - icon: us1
+      - icon: journal-text
         text: sisius
         href: https://investigacion.us.es/sisius/sis_showpub.php?idpers=1694
-      - icon: US1.png
+      - icon: mortarboard
         text: US
         href: http://www.us.es
-      - icon: US1
+      - icon: person-badge
         text: orcid
         href: https://orcid.org/0000-0002-2690-2542
   back-to-top-navigation: true
