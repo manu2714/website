@@ -29,7 +29,6 @@ website:
       - text: Inicio
         href: index.qmd
       - Docencia.qmd
-      - text: Investigación
       - href: investigacion.qmd
 format:
   html:
