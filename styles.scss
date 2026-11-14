@@ -11,3 +11,23 @@ $link-color: rgb(39, 128, 227);
 /* Fonts */
 $font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-size-root: 17px;
+
+.referencias p {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 0.8em;
+}
+
+/* Justificar párrafos y listas */
+.quarto-about-jolla p,
+.quarto-about-jolla li,
+.referencias p {
+  text-align: justify !important;
+}
+
+/* Sangría francesa en las referencias */
+.referencias p {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 0.8em;
+}
